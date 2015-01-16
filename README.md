@@ -17,16 +17,6 @@ $ source ~/.rvm/scripts/rvm
 $ rvm -v
 rvm 1.17.3 (stable) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
 
-3.
- 用 RVM 安装 Ruby 环境
-# 替换 Ruby 下载地址到国内淘宝镜像服务器
-
-$ sed -i .bak 's!ftp.ruby-lang.org/pub/ruby!ruby.taobao.org/mirrors/ruby!' $rvm_path/config/db
-# 安装 Ruby 1.9.2
-
-$ rvm install 1.9.3
-或者可以安装 1.8.7 版本，也可以是 1.9.3，只要将后面的版本号跟换一下就可以了
-同样继续等待漫长的下载，编译过程，完成以后，Ruby, Ruby Gems 就安装好了。
 4.
 设置 Ruby 版本
 RVM 装好以后，需要执行下面的命令将指定版本的 Ruby 设置为系统默认版本
